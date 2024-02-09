@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Start Page</title>
+  
+    <style>
+        div.center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;             
+        }
+
+    button.styled {
+        border: 0;
+        line-height: 2.5;
+        padding: 0 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 1.2rem;
+        text-align: center;
+        color: #fff;
+        text-shadow: 1px 1px 1px #000;
+        border-radius: 10px;
+        background-color: rgba(220, 0, 0, 1);
+        background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+        box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+    </style>
+</head>
+<body bgcolor="#151433" text="#e61414">
+
+    <h1>LED Number Display</h1>
+    <div id="container">
+
+        <div id="top-box"></div>
+        <div id="bottom-box"></div>
+
+    </div>
+    <br>
+
+</body>
+
+<body>
+    <button class="favorite styled"
+            type="button"
+            onclick="document.location='gameselect.html'">GAMES</button>
+
+    <button class="favorite styled"
+            type="button"
+            onclick="document.location='scoring.html'">SCORING</button>
+ 
+
+    <button class="favorite styled"
+            type="button"
+            onclick="document.location='Player Tips.html'">PLAYING TIPS</button>
+
+    <button class="favorite styled"
+            type="button">
+        EXIT
+    </button>
+
+
+</body>
+    
+  
+
+
+</html>

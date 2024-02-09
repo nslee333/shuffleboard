@@ -1,0 +1,68 @@
+.pics-container {
+    display: flex;
+    justify-content: center;
+}
+
+.inner-pics-container{
+    display: flex;
+    justify-content:center;
+    background-color: #151433;
+    width: 90%;
+    height: 210px;
+    outline-width: 14px;
+    outline-offset: 7px;
+    text-align: center;
+}
+
+.links-container {
+    display: flex;
+    justify-content: center;
+}
+
+.inner-links-container {
+    display: flex;
+    justify-content: center;
+    background-color: #151433;
+    width: 90%;
+    height: 50px;
+    padding-top: 6px;
+    outline-width: 14px;
+    outline-offset: 7px;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+
+div.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+button.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.styled:hover {
+    background-color: #b22e2e;
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}

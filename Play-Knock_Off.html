@@ -1,0 +1,73 @@
+<html>
+
+    <head>
+        <title>Knock Off ScoreBoard</title>
+        <link rel="stylesheet" href="style-KnockOff.css">
+    </head>
+
+    <body id="body">
+
+        <div class="container-top" id="container">
+
+                <div class="operate-red">
+                    <button style="width: 70px" class='red-btn' onclick="red_add_points(1)">1</button>
+                    <button style="width: 70px" class='red-btn' onclick="red_add_points(2)">2</button>
+                    <button style="width: 70px" class='red-btn' onclick="red_add_points(3)">3</button>
+                    <button style="width: 70px" class='red-btn' id="red-hc-4" onclick="red_add_points(4)">4</button>
+                    <button style="width: 95px" class="red-btn-disabled" id="red-hc-13" onclick="red_add_points(13)">13</button>
+                    <button style="width: 95px" class="red-btn-disabled" id="red-hc-26" onclick="red_add_points(26)">26</button>
+                    <button style="width: 280px" class='red-btn' id="red-status"></button>
+                </div>
+                
+                <br />
+                <div class="operate-red"> 
+                    <button style="width: 95px" class='red-btn' id="red-sub-total">0</button>
+                    <button style="width: 160px" class='red-btn' onclick="red_clear()">CLEAR</button>
+                    <button style="width: 160px" class='red-btn' onclick="red_enter()">ENTER</button>
+                    <button style="width: 200px" class='red-btn' id="red-hammer"></button>
+                    <button style="width: 95px" class='red-btn' id="red-score">0</button>
+                </div> 
+            <br />
+            
+            <div class="guest">
+                <div class="operate-blue">
+                    <button style="width: 70px" class="blue-btn" onclick="blue_add_points(1)">1</button>
+                    <button style="width: 70px" class="blue-btn" onclick="blue_add_points(2)">2</button>
+                    <button style="width: 70px" class="blue-btn" onclick="blue_add_points(3)">3</button>
+                    <button style="width: 70px" class="blue-btn" id="blue-hc-4" onclick="blue_add_points(4)">4</button>
+                    <button style="width: 95px" class="blue-btn-disabled" id="blue-hc-13" onclick="blue_add_points(13)">13</button>
+                    <button style="width: 95px" class="blue-btn-disabled" id="blue-hc-26"onclick="blue_add_points(26)">26</button>
+                    <button style="width: 280px" class="blue-btn" id="blue-status"></button>
+                </div>
+                
+                <br />
+                <div class="operate-blue">
+                    <button style="width: 95px"  class="blue-btn" id="blue-sub-total">0</button>
+                    <button style="width: 160px" class="blue-btn" onclick="blue_clear()">CLEAR</button>
+                    <button style="width: 160px" class="blue-btn" onclick="blue_enter()">ENTER</button>
+                    <button style="width: 200px" class="blue-btn" id="blue-hammer"></button>
+                    <button style="width: 95px"  class="blue-btn" id="blue-score">0</button>
+                </div>
+            </div>
+            <br />
+            <div class="white">
+                <div class="operate-white">
+                    <button style="width: 150px" id="game-mode" onclick="change_game_mode()">2 PLAYER</button>
+                    <button style="width: 120px" onclick="document.location='Rules-KnockOff.html'">RULES</button>
+                    <button style="width: 175px" id="score-limit" onclick="start_game()">15 - READY?</button>
+                    <button style="width: 120px" onclick="document.location='Scoring.html'">SCORE</button>
+                    <button style="width: 120px" onclick="document.location='Selector.html'">EXIT</button>
+                </div>
+            </div>
+            
+            <img src="ImageFolder/Vintage_Scoreboard_Lower.jpg"
+            alt="Yellow Bottom Banner"
+            class="image"
+            width="900" height="219">
+            
+        </div>
+
+    <script src="./Play-Knock_Off.js"></script>
+
+</body>
+</html>
